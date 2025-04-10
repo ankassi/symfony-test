@@ -1,0 +1,7 @@
+framework:
+    cache:
+        pools:
+            redis_cache_pool:
+                adapter: cache.adapter.redis
+                default_lifetime: 3600
+                provider: '%env(REDIS_URL)%'
