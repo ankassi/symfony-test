@@ -24,4 +24,5 @@ composer install
 
 ### 3. В .env прописать следующее
 DATABASE_URL="pgsql://username:password@127.0.0.1:5432/dbname"
+
 REDIS_URL="redis://localhost:6379"
